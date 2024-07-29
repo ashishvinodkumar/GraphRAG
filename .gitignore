@@ -6,6 +6,9 @@ __pycache__/
 # C extensions
 *.so
 
+# Custom folders
+ragtest*
+
 # Distribution / packaging
 .Python
 build/
@@ -122,6 +125,7 @@ celerybeat.pid
 *.sage.py
 
 # Environments
+.my_graph_rag_venv
 .env
 .venv
 env/

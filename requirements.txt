@@ -1,0 +1,8 @@
+pandas
+numpy
+graphrag
+bentoml
+transformers
+torch
+ipykernel
+ollama
