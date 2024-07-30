@@ -25,7 +25,6 @@ make install
 
 ### 2. Get Model
 ```shell
-# Open a new terminal window and run the below command
 ollama pull mistral
 ```
 
