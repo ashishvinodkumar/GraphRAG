@@ -28,6 +28,3 @@ index: # Index documents
 
 global: # GraphRAG global search
 	$(PYTHON) -m graphrag.query --root ./ragtest --method global "What are the top themes in this story?"
-
-local: # GraphRAG local search
-	$(PYTHON) -m graphrag.query --root ./ragtest --method local "Who is Scrooge, and what are his main relationships?"

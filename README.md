@@ -41,7 +41,22 @@ ollama pull nomic-embed-text
 make data
 ```
 
-### 2. Index data
+### 2. Initialize GraphRag settings
 ```shell
 make init
+```
+
+### 3. Copy custom code to make it Ollama compatible
+```shell
+make custom
+```
+
+### 4. Index data
+```shell
+make index
+```
+
+### 5. Query Data: Global Search
+```shell
+make index
 ```
